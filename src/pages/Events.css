@@ -1,0 +1,11 @@
+.horizontal{
+    border-top: 1px solid black;
+    height:80px;
+    margin-bottom: 30px;
+}
+.bg-imag{
+    background-image: url(https://mig.cc/wp-content/uploads/2022/05/Multi-Image-Group-Global-Events-Corporate-Theater-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
