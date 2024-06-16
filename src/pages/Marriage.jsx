@@ -169,8 +169,8 @@ function Marriage() {
         if(result.status===200){
           console.log(result.data);
           sessionStorage.setItem("numberOfOrder",JSON.stringify(result.data))
-          sessionStorage.setItem("numberOfPersons",result.data.numberOfPersons)
-          sessionStorage.setItem("phoneNumber",result.data.phoneNumber)
+          sessionStorage.setItem("numberOfPersons",JSON.stringify(result.data.numberOfPersons))
+          sessionStorage.setItem("phoneNumber",JSON.stringify(result.data.phoneNumber))
           toast.success('Number of person added Success fully...Now you select youer requirements')
           setShowRequirements(true)
           
