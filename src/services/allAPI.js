@@ -24,7 +24,7 @@ export const allStageAPI =async()=>{
 
 //add number of participence
 export const addParticipenceAPI =async(reqBody,reqHeader)=>{
-    return await commonAPI('POST',`${BASE_URL}/participens/add`,reqBody,reqHeader)
+    return await commonAPI('POST',`${BASE_URL}/participents/add`,reqBody,reqHeader)
 }
 
 //get number of participents

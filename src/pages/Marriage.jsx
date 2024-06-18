@@ -163,7 +163,7 @@ function Marriage() {
           "Authorization":`Bearer ${token}`
         }
 
-        const result = await addParticipenceAPI(reqBody, reqHeader)
+        const result = await addParticipenceAPI(reqBody,reqHeader)
         console.log(result);
 
         if(result.status===200){

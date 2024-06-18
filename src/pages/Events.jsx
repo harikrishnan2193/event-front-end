@@ -36,7 +36,7 @@ function Events() {
         <div>
             <h3 className='text-secondary'>Conferences</h3> <br />
             <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'black'}} to={'/oevent'}><button className='btn btn-secondary mb-1 mt-2'>Make youer event</button></Link>
+            <Link style={{textDecoration:'none',color:'black'}} to={''}><button className='btn btn-secondary mb-1 mt-2'>Make youer event</button></Link>
           </div>
         </div>
         <div className="col-6 mt-3">
@@ -52,7 +52,7 @@ function Events() {
           <div>
             <h3 className='text-danger'>Home Events</h3> <br />
             <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'white'}} to={'/hevent'}><button className='btn btn-danger mb-1 mt-2'>Make youer event</button></Link>
+            <Link style={{textDecoration:'none',color:'white'}} to={''}><button className='btn btn-danger mb-1 mt-2'>Make youer event</button></Link>
           </div>
           
         </div>

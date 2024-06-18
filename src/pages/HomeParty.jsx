@@ -26,7 +26,7 @@ function HomeParty() {
           <img width={'500px'} height={'400px'} src="https://rainfocus.com/assets/pages/home-page/graphic-home-an-industry-leader.jpg" alt="no image" />
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <h3 className='m-4'>Order youer food</h3>
         <div className='food-row'>
           <Card className='image-width'  style={{ width: '18rem' }}>
@@ -73,7 +73,7 @@ function HomeParty() {
             </Card.Body>
           </Card>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
