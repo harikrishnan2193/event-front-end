@@ -1,28 +1,30 @@
-.horizontal{
-    border-top: 1px solid black;
-    height:80px;
-    margin-bottom: 30px;
+.horizontal {
+  border-top: 1px solid black;
+  height: 80px;
+  margin-bottom: 30px;
 }
-.scrol{
-    background-image: url(https://images.squarespace-cdn.com/content/v1/570aae574d088e29f6f6cc8d/1598535745770-R2SPBGW93T7F9N2VD3U5/fullsizeoutput_5141.jpeg?format=2500w);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
+.scrol {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/570aae574d088e29f6f6cc8d/1598535745770-R2SPBGW93T7F9N2VD3U5/fullsizeoutput_5141.jpeg?format=2500w);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.scroll{
-    background-image: url(https://images.squarespace-cdn.com/content/v1/570aae574d088e29f6f6cc8d/1598535745770-R2SPBGW93T7F9N2VD3U5/fullsizeoutput_5141.jpeg?format=2500w);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    animation: marquee 30s infinite linear;
+
+.scroll {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/570aae574d088e29f6f6cc8d/1598535745770-R2SPBGW93T7F9N2VD3U5/fullsizeoutput_5141.jpeg?format=2500w);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: marquee 30s infinite linear;
 }
 
 @keyframes marquee {
-    0% {
-      background-position-y: 0;
-    }
-  
-    100% {
-      background-position-y: -1190px;
-    }
+  0% {
+    background-position-y: 0;
   }
+
+  100% {
+    background-position-y: -1190px;
+  }
+}

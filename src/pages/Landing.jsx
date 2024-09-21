@@ -5,12 +5,12 @@ import Header from '../components/Header'
 
 function Landing() {
 
-  
+
   return (
     <>
-    <Header/>
+      <Header />
       <div className='scrol'>
-        <Lnd/>
+        <Lnd />
       </div>
     </>
   )

@@ -6,9 +6,9 @@ import Header from '../components/Header'
 function Events() {
   return (
     <>
-    <Header event/>
+      <Header event />
       <div className="row bg-imag">
-        <h2 className='text-center text-light' style={{marginTop:'200px',marginBottom:'150px'}}>We Are <span style={{color:'red'}}>Experience Makers</span></h2>
+        <h2 className='text-center text-light' style={{ marginTop: '200px', marginBottom: '150px' }}>We Are <span style={{ color: 'red' }}>Experience Makers</span></h2>
       </div>
       <div className="row">
         <div className="col-2"></div>
@@ -17,15 +17,15 @@ function Events() {
       </div>
       <div className="row mt-5">
         <div className="col-6 mb-5">
-          <img height={'470px'}  src="https://aguiamweddingphotography.com/wp-content/uploads/2024/04/aguiamweddingphotography-5.jpg" alt="no image" />
+          <img height={'470px'} src="https://aguiamweddingphotography.com/wp-content/uploads/2024/04/aguiamweddingphotography-5.jpg" alt="no image" />
         </div>
         <div className="col-5 d-flex align-items-center">
           <div>
             <h3 className='text-warning'>Destination wedding & Engagement</h3> <br />
-            <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'white'}} to={'/mevent'}><button className='btn btn-warning mb-1 mt-2'>Make youer event</button></Link>
+            <h6 style={{ lineHeight: '1.8' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to={'/mevent'}><button className='btn btn-warning mb-1 mt-2'>Make youer event</button></Link>
           </div>
-          
+
         </div>
         <div className="col-1"></div>
       </div>
@@ -33,10 +33,10 @@ function Events() {
       <div className="row">
         <div className="col-1"></div>
         <div className="col-5 d-flex align-items-center">
-        <div>
+          <div>
             <h3 className='text-secondary'>Conferences</h3> <br />
-            <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'black'}} to={''}><button className='btn btn-secondary mb-1 mt-2'>Make youer event</button></Link>
+            <h6 style={{ lineHeight: '1.8' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to={''}><button className='btn btn-secondary mb-1 mt-2'>Make youer event</button></Link>
           </div>
         </div>
         <div className="col-6 mt-3">
@@ -46,15 +46,15 @@ function Events() {
 
       <div className="row mt-5">
         <div className="col-6 mb-5">
-          <img height={'470px'}  src="https://images.pexels.com/photos/4915535/pexels-photo-4915535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="no image" />
+          <img height={'470px'} src="https://images.pexels.com/photos/4915535/pexels-photo-4915535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="no image" />
         </div>
         <div className="col-5 d-flex align-items-center">
           <div>
             <h3 className='text-danger'>Home Events</h3> <br />
-            <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'white'}} to={''}><button className='btn btn-danger mb-1 mt-2'>Make youer event</button></Link>
+            <h6 style={{ lineHeight: '1.8' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to={''}><button className='btn btn-danger mb-1 mt-2'>Make youer event</button></Link>
           </div>
-          
+
         </div>
         <div className="col-1"></div>
       </div>
@@ -62,10 +62,10 @@ function Events() {
       <div className="row mb-3">
         <div className="col-1"></div>
         <div className="col-5 d-flex align-items-center">
-        <div>
+          <div>
             <h3 className='text-info'>Stage Shows</h3> <br />
-            <h6 style={{lineHeight:'1.8'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
-            <Link style={{textDecoration:'none',color:'white'}} to={''}><button className='btn btn-info mb-1 mt-2'>Make youer event</button></Link>
+            <h6 style={{ lineHeight: '1.8' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eligendi animi excepturi quaerat! Consequuntur sint dolores asperiores minus ut dicta dolor vero ducimus, blanditiis, nemo voluptatibus quaerat obcaecati molestiae rem?</h6>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to={''}><button className='btn btn-info mb-1 mt-2'>Make youer event</button></Link>
           </div>
         </div>
         <div className="col-6 mt-3">
