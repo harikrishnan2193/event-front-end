@@ -29,7 +29,9 @@ function Register() {
         setUserData({
           username: "", email: "", password: ""
         })
-        navigate('/login')
+        setTimeout(() => {
+          navigate('/login')
+        }, 3000)
       }
       else {
         toast.error(`${result.response.data}`)
